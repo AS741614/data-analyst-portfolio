@@ -51,7 +51,7 @@ function App() {
         </div>
         <div className="contact-links" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', alignItems: 'flex-end' }}>
           <a href="mailto:akashsharma.irl@gmail.com" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}><Mail size={18}/> akashsharma.irl@gmail.com</a>
-          <a href="https://linkedin.com/in/akash-sharma24" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}><FaLinkedin size={18}/> LinkedIn Profile</a>
+          <a href="https://www.linkedin.com/in/akashsharma22/" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}><FaLinkedin size={18}/> LinkedIn Profile</a>
           <a href="https://github.com/AS741614" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}><FaGithub size={18}/> GitHub Portfolio</a>
           <span style={{ fontSize: '0.875rem', color: 'var(--text-secondary)' }}>Dublin, Ireland</span>
         </div>
@@ -191,6 +191,35 @@ function App() {
               <div className="par-section">
                 <h4><CheckCircle2 size={16}/> Result</h4>
                 <p>Improved operational visibility significantly, directly supporting inventory planning and data-driven sales optimization strategies.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Case Study 3 */}
+          <div className="case-study">
+            <div className="case-study-header">
+              <div className="case-study-title">
+                <h3>Advanced Crypto Analytics Dashboard</h3>
+                <div className="tech-tags">
+                  <span className="tech-tag">React</span>
+                  <span className="tech-tag">Vite</span>
+                  <span className="tech-tag">REST APIs</span>
+                </div>
+              </div>
+              <a href="https://github.com/AS741614" className="btn-link" style={{ color: 'var(--accent-blue)', textDecoration: 'none', fontWeight: 500 }}>View Repo →</a>
+            </div>
+            <div className="case-study-body">
+              <div className="par-section">
+                <h4><Target size={16}/> Problem</h4>
+                <p>Lack of real-time visibility into cryptocurrency market trends and high-latency tracking hindered rapid decision-making.</p>
+              </div>
+              <div className="par-section">
+                <h4><Wrench size={16}/> Action</h4>
+                <p>Developed a high-performance React application leveraging Vite and integrated live cryptocurrency APIs to fetch and visualize real-time data.</p>
+              </div>
+              <div className="par-section">
+                <h4><CheckCircle2 size={16}/> Result</h4>
+                <p>Delivered a highly responsive, low-latency dashboard featuring complex data visualizations that enabled users to track market movements seamlessly.</p>
               </div>
             </div>
           </div>
