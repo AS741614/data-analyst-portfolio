@@ -1,0 +1,574 @@
+{
+  "personal": {
+    "name": "Akash Sharma",
+    "title": "Software Developer & AI Systems Engineer",
+    "tagline": "Architecting tomorrow's infrastructure with today's intelligence.",
+    "location": "Dublin, Ireland",
+    "email": "akashsharma.irl@gmail.com",
+    "phone": "+353 89 404 4394",
+    "social_links": {
+      "github": "https://github.com/AS741614",
+      "linkedin": "https://www.linkedin.com/in/akash-sharma24",
+      "portfolio": "https://AkashSharma.com"
+    },
+    "status": "Available for opportunities"
+  },
+  "bio": {
+    "short_bio": "Building production-grade backend systems where AI meets enterprise reliability. Three years of crafting platforms that process millions of transactions, detect fraud in milliseconds, and turn complex data into intelligent decisions.",
+    "long_bio": [
+      "I'm a full-stack software developer who specializes in the systems most engineers avoid — the ones that need to be fast, reliable, and intelligent simultaneously. My work lives at the intersection of backend infrastructure, data engineering, and applied AI.",
+      "Currently completing my MSc in Artificial Intelligence for Business at National College of Ireland, I bridge academic rigor with production realities. I've architected banking platforms with real-time fraud detection, built RAG systems over enterprise documents, and engineered ETL pipelines that turned days of manual work into automated minutes.",
+      "Based in Dublin, open to global opportunities. I'm drawn to teams building systems that matter — where complexity is a feature, not a bug, and where the work has measurable impact on real users."
+    ],
+    "available_for": [
+      "Backend Engineering roles",
+      "AI Systems positions",
+      "Full-Stack opportunities",
+      "Consultations",
+      "Interesting problems"
+    ]
+  },
+  "identity_cards": [
+    {
+      "title": "Backend Architect",
+      "description": "Python, FastAPI, PostgreSQL — building APIs that scale",
+      "icon": "Cpu",
+      "glow_color": "cyan"
+    },
+    {
+      "title": "Data Engineer",
+      "description": "ETL pipelines, data quality, governance frameworks",
+      "icon": "Database",
+      "glow_color": "purple"
+    },
+    {
+      "title": "AI Systems Builder",
+      "description": "RAG, LLMs, ML pipelines in production",
+      "icon": "BrainCircuit",
+      "glow_color": "pink"
+    },
+    {
+      "title": "DevOps Practitioner",
+      "description": "Docker, CI/CD, observability, infrastructure",
+      "icon": "ShieldCheck",
+      "glow_color": "green"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-01",
+      "name": "ESOTERIC Bank Intelligence Platform",
+      "tagline": "Enterprise banking infrastructure with embedded AI governance",
+      "status": "PRODUCTION",
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "GitHub Actions",
+        "Prometheus",
+        "Grafana",
+        "OpenTelemetry"
+      ],
+      "metrics": [
+        {
+          "value": "200K+",
+          "label": "Transactions Modeled"
+        },
+        {
+          "value": "99.9%",
+          "label": "System Uptime"
+        },
+        {
+          "value": "5K+",
+          "label": "Customer Profiles"
+        }
+      ],
+      "story_paragraphs": [
+        "Traditional banking systems struggle to combine real-time transaction processing with the compliance and observability that regulators demand. ESOTERIC is my answer — an end-to-end platform that handles everything from synthetic data generation to executive AI copilots.",
+        "I architected a complete data pipeline: Python ETL feeding a PostgreSQL star-schema warehouse, with automated quality gates that fail the pipeline on integrity errors. The system includes fraud detection engines, AML compliance with SAR triggering, and a governance layer that tracks regulatory drift.",
+        "What sets this apart is the observability stack — OpenTelemetry traces every transaction, Prometheus collects custom business metrics, and Grafana dashboards surface anomalies in real-time. I stress-tested it with multi-vector crisis simulations: coordinated fraud, liquidity deterioration, AML smurfing patterns. All defenses held.",
+        "This project taught me that production systems aren't about clever code — they're about systems that fail loudly, recover gracefully, and tell you the truth about their state."
+      ],
+      "github_url": "https://github.com/AS741614",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "project-02",
+      "name": "EAIKA — Enterprise AI Knowledge Assistant",
+      "tagline": "Private enterprise RAG application with semantic intelligence",
+      "status": "LIVE",
+      "tech_stack": [
+        "FastAPI",
+        "Streamlit",
+        "LangChain",
+        "OpenAI GPT-4o-mini",
+        "ChromaDB",
+        "Python"
+      ],
+      "metrics": [
+        {
+          "value": "Multi-Format",
+          "label": "Document Ingestion"
+        },
+        {
+          "value": "Sub-Second",
+          "label": "Semantic Retrieval"
+        },
+        {
+          "value": "Context-Aware",
+          "label": "GPT-4 Responses"
+        }
+      ],
+      "story_paragraphs": [
+        "Organizations sit on mountains of internal knowledge — wikis, PDFs, contracts, technical docs — that no one can effectively search. EAIKA solves this by combining vector embeddings with LLM reasoning.",
+        "The architecture is modular by design: FastAPI handles document ingestion and chunking, OpenAI generates embeddings, ChromaDB stores and retrieves by semantic similarity, and GPT-4o-mini synthesizes context-aware answers. Streamlit provides the interface for upload, search, and conversation.",
+        "I focused heavily on the RAG pipeline quality — chunking strategy, embedding choice, retrieval ranking, and prompt engineering all impact answer accuracy more than the LLM itself. The result is a system that doesn't just search documents; it understands them.",
+        "Building this clarified for me that the future of enterprise software isn't 'AI-powered features' — it's reimagining workflows around what LLMs make possible."
+      ],
+      "github_url": "https://github.com/AS741614",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "project-03",
+      "name": "Automated Data Intelligence Pipeline",
+      "tagline": "Self-healing ETL infrastructure with embedded quality governance",
+      "status": "ARCHIVED",
+      "tech_stack": [
+        "Python",
+        "SQL",
+        "PostgreSQL",
+        "pandas",
+        "Power BI",
+        "Validation Frameworks"
+      ],
+      "metrics": [
+        {
+          "value": "8+",
+          "label": "Pipeline Apps"
+        },
+        {
+          "value": "10+ Hrs",
+          "label": "Manual Work Saved/Wk"
+        },
+        {
+          "value": "40%",
+          "label": "Faster DWH Reports"
+        }
+      ],
+      "story_paragraphs": [
+        "Operations and finance teams were drowning in manual reporting — Excel sheets, copy-paste workflows, daily reconciliation. I rebuilt the data infrastructure from the ground up.",
+        "I designed and deployed 8+ Python-based ETL pipelines feeding a centralized PostgreSQL warehouse. The critical innovation was the validation framework — automated reconciliation, quality gates, and self-healing retry logic that kept the pipelines running even when source systems hiccupped.",
+        "The result reshaped how the company operated. Executive reports that took days now generated in hours. Data errors that previously made it to dashboards were caught before they could mislead decisions. Five business stakeholders went from data consumers to confident decision-makers.",
+        "This was where I learned that data engineering isn't about moving data — it's about building trust between people and the numbers they make decisions on."
+      ],
+      "github_url": "https://github.com/AS741614",
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "project-04",
+      "name": "ML-Powered Customer Intelligence",
+      "tagline": "Production machine learning for sales optimization",
+      "status": "ARCHIVED",
+      "tech_stack": [
+        "Python",
+        "scikit-learn",
+        "pandas",
+        "SQL",
+        "Statistical Analysis"
+      ],
+      "metrics": [
+        {
+          "value": "100K+",
+          "label": "Records Cleaned"
+        },
+        {
+          "value": "Production",
+          "label": "ML Models Shipped"
+        },
+        {
+          "value": "Clustering",
+          "label": "Customer Profiles"
+        }
+      ],
+      "story_paragraphs": [
+        "Sales teams spent equal time on hot leads and cold ones. The opportunity was obvious — predict which prospects were actually likely to convert, before reps invested hours.",
+        "I analyzed datasets of 100K+ customer records to engineer features that captured behavioral intent — engagement patterns, demographic signals, interaction histories. The lead scoring model used supervised learning to rank prospects, while customer segmentation clustered users into actionable archetypes.",
+        "The output integrated directly into the sales workflow — reps saw priority scores, segment context, and recommended actions. Conversion rates improved measurably as the team focused effort where it mattered most.",
+        "This project was my introduction to the reality of production ML — that the hardest part isn't training models, it's the feature engineering, data quality, and integration with how humans actually work."
+      ],
+      "github_url": "https://github.com/AS741614",
+      "featured": true,
+      "order": 4
+    },
+    {
+      "id": "project-05",
+      "name": "AI Agent PR Review Bot",
+      "tagline": "Autonomous GitHub reviewing microservice with safety hook guardrails",
+      "status": "PRODUCTION",
+      "tech_stack": [
+        "Java",
+        "Spring Boot",
+        "Spring AI",
+        "GitHub API",
+        "OnToolErrorHook",
+        "Jackson"
+      ],
+      "metrics": [
+        {
+          "value": "Claude",
+          "label": "AI Brain Engine"
+        },
+        {
+          "value": "Hooks",
+          "label": "Tool Safe Guardrails"
+        },
+        {
+          "value": "Async",
+          "label": "Immediate Webhook responses"
+        }
+      ],
+      "story_paragraphs": [
+        "Developing microservices that orchestrate LLM agents requires solid safety triggers, dynamic function mappings, and fast async structures to prevent gateway timeout drops.",
+        "I implemented a Spring Boot service listening to GitHub webhook triggers. It parses pull request events and calls an agent orchestrated via Spring AI. The agent maps tool schemas dynamically (static code analysis, file retrieval) and comments feedback back onto the pull request.",
+        "Safety is enforced via custom OnToolErrorHook controls and validation layers that ensure agent constraints remain immutable. It executes asynchronously using CompletableFuture to respond within webhook SLA windows.",
+        "This prototype demonstrates modern microservice agent design, incorporating observability logs and micro-metrics alongside clean Spring architectures."
+      ],
+      "github_url": "https://github.com/AS741614/pr-review-bot",
+      "featured": true,
+      "order": 5
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Core Engineering",
+      "proficiency_level": "95%",
+      "years_experience": 3
+    },
+    {
+      "name": "FastAPI",
+      "category": "Core Engineering",
+      "proficiency_level": "92%",
+      "years_experience": 2
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Core Engineering",
+      "proficiency_level": "90%",
+      "years_experience": 3
+    },
+    {
+      "name": "SQL (Oracle, BigQuery, Server)",
+      "category": "Core Engineering",
+      "proficiency_level": "95%",
+      "years_experience": 3
+    },
+    {
+      "name": "REST API Design",
+      "category": "Core Engineering",
+      "proficiency_level": "88%",
+      "years_experience": 2
+    },
+    {
+      "name": "System Architecture",
+      "category": "Core Engineering",
+      "proficiency_level": "80%",
+      "years_experience": 2
+    },
+    {
+      "name": "ETL Pipeline Design",
+      "category": "Data Engineering",
+      "proficiency_level": "92%",
+      "years_experience": 3
+    },
+    {
+      "name": "Data Modeling (Star/Snowflake)",
+      "category": "Data Engineering",
+      "proficiency_level": "90%",
+      "years_experience": 3
+    },
+    {
+      "name": "Data Quality Gates",
+      "category": "Data Engineering",
+      "proficiency_level": "95%",
+      "years_experience": 2
+    },
+    {
+      "name": "pandas / numpy",
+      "category": "Data Engineering",
+      "proficiency_level": "88%",
+      "years_experience": 3
+    },
+    {
+      "name": "Reconciliation Frameworks",
+      "category": "Data Engineering",
+      "proficiency_level": "92%",
+      "years_experience": 2
+    },
+    {
+      "name": "Claude & OpenAI APIs",
+      "category": "AI / ML / Generative",
+      "proficiency_level": "92%",
+      "years_experience": 1
+    },
+    {
+      "name": "OnToolErrorHook Safety",
+      "category": "AI / ML / Generative",
+      "proficiency_level": "90%",
+      "years_experience": 1
+    },
+    {
+      "name": "MCP Concepts",
+      "category": "AI / ML / Generative",
+      "proficiency_level": "85%",
+      "years_experience": 1
+    },
+    {
+      "name": "RAG Systems & ChromaDB",
+      "category": "AI / ML / Generative",
+      "proficiency_level": "88%",
+      "years_experience": 1
+    },
+    {
+      "name": "LangChain",
+      "category": "AI / ML / Generative",
+      "proficiency_level": "80%",
+      "years_experience": 1
+    },
+    {
+      "name": "Machine Learning (Scikit-learn)",
+      "category": "AI / ML / Generative",
+      "proficiency_level": "82%",
+      "years_experience": 2
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps & Infrastructure",
+      "proficiency_level": "85%",
+      "years_experience": 2
+    },
+    {
+      "name": "GitHub Actions",
+      "category": "DevOps & Infrastructure",
+      "proficiency_level": "82%",
+      "years_experience": 2
+    },
+    {
+      "name": "Jenkins",
+      "category": "DevOps & Infrastructure",
+      "proficiency_level": "70%",
+      "years_experience": 1
+    },
+    {
+      "name": "AWS (Lambda, EC2, S3)",
+      "category": "DevOps & Infrastructure",
+      "proficiency_level": "78%",
+      "years_experience": 2
+    },
+    {
+      "name": "CI/CD Pipelines",
+      "category": "DevOps & Infrastructure",
+      "proficiency_level": "82%",
+      "years_experience": 2
+    },
+    {
+      "name": "Prometheus & Grafana",
+      "category": "Observability & Operations",
+      "proficiency_level": "85%",
+      "years_experience": 1
+    },
+    {
+      "name": "OpenTelemetry Tracing",
+      "category": "Observability & Operations",
+      "proficiency_level": "75%",
+      "years_experience": 1
+    },
+    {
+      "name": "Structured Logging",
+      "category": "Observability & Operations",
+      "proficiency_level": "88%",
+      "years_experience": 2
+    },
+    {
+      "name": "Production Debugging",
+      "category": "Observability & Operations",
+      "proficiency_level": "90%",
+      "years_experience": 3
+    },
+    {
+      "name": "Agile / Scrum",
+      "category": "Methodologies",
+      "proficiency_level": "90%",
+      "years_experience": 3
+    },
+    {
+      "name": "TDD (Pytest)",
+      "category": "Methodologies",
+      "proficiency_level": "85%",
+      "years_experience": 2
+    },
+    {
+      "name": "Code Review",
+      "category": "Methodologies",
+      "proficiency_level": "88%",
+      "years_experience": 2
+    },
+    {
+      "name": "Technical Documentation",
+      "category": "Methodologies",
+      "proficiency_level": "90%",
+      "years_experience": 3
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-01",
+      "waypoint_number": 1,
+      "title": "Customer Operations Analyst",
+      "company": "iEnergizer",
+      "location": "India",
+      "start_date": "Jan 2021",
+      "end_date": "Jan 2022",
+      "current": false,
+      "description": "Resolved 50+ daily client cases under strict SLAs, maintaining top performance tiering.",
+      "highlights": [
+        "Built recurring Excel trackers that surfaced escalation patterns to root causes.",
+        "Maintained logs feeding into QA review databases and compliance cycles."
+      ]
+    },
+    {
+      "id": "exp-02",
+      "waypoint_number": 2,
+      "title": "Software Developer — Backend Systems",
+      "company": "Planet Spark",
+      "location": "India",
+      "start_date": "Feb 2022",
+      "end_date": "Aug 2022",
+      "current": false,
+      "description": "Built lead-scoring and customer segmentation models processing 100K+ records.",
+      "highlights": [
+        "Engineered predictive classifiers improving conversion rates.",
+        "Automated weekly data pipelines writing analytics directly to leadership review decks."
+      ]
+    },
+    {
+      "id": "exp-03",
+      "waypoint_number": 3,
+      "title": "Software Developer & Data Engineer",
+      "company": "Pavana Industries",
+      "location": "India",
+      "start_date": "Aug 2022",
+      "end_date": "May 2023",
+      "current": false,
+      "description": "Architected 8+ data pipelines. Reduced manual work by 10+ hours weekly.",
+      "highlights": [
+        "Optimized SQL reporting pipelines and automated recurring extraction jobs.",
+        "Implemented database quality gates and reconciliation checks, reducing dashboard errors to zero."
+      ]
+    },
+    {
+      "id": "exp-04",
+      "waypoint_number": 4,
+      "title": "Strategic Transition",
+      "company": "India → Ireland",
+      "location": "India / Ireland",
+      "start_date": "Jun 2023",
+      "end_date": "Aug 2024",
+      "current": false,
+      "description": "Prepared and secured MSc postgraduate admission. Relocated to Dublin.",
+      "highlights": []
+    },
+    {
+      "id": "exp-05",
+      "waypoint_number": 5,
+      "title": "MSc in Artificial Intelligence for Business",
+      "company": "National College of Ireland",
+      "location": "Dublin",
+      "start_date": "Aug 2024",
+      "end_date": "Aug 2025",
+      "current": false,
+      "description": "Postgraduate degree focusing on intelligent agents, AI governance, and data ethics.",
+      "highlights": [
+        "Coursework: Customer engagement AI, Data Analytics, Intelligent Agents.",
+        "Graduated with a 2:1 honors degree."
+      ]
+    },
+    {
+      "id": "exp-06",
+      "waypoint_number": 6,
+      "title": "Independent Engineering & AI Research",
+      "company": "Self-Directed",
+      "location": "Dublin",
+      "start_date": "Aug 2025",
+      "end_date": "Present",
+      "current": true,
+      "description": "Shipped production systems (PR Review Bot, ESOTERIC BANK DWH).",
+      "highlights": [
+        "Built detailed Prometheus/Grafana monitoring, event-driven FastAPI microservices, and tool error recovery controls.",
+        "Pursuing IBM Management Consultant Specialization."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc in Artificial Intelligence for Business",
+      "institution": "National College of Ireland",
+      "location": "Dublin, Ireland",
+      "graduation_date": "Aug 2025",
+      "grade": "2:1",
+      "focus_areas": [
+        "AI governance",
+        "intelligent agents & process automation",
+        "data analytics",
+        "data governance & ethics"
+      ]
+    },
+    {
+      "degree": "B.Tech in Electrical & Electronics Engineering",
+      "institution": "Amity University",
+      "location": "India",
+      "graduation_date": "Jun 2021",
+      "grade": "2:1",
+      "focus_areas": [
+        "Python",
+        "Machine Learning",
+        "AI principles",
+        "Signals & Systems"
+      ]
+    },
+    {
+      "degree": "Higher Secondary Education",
+      "institution": "Delhi Public School",
+      "location": "India",
+      "graduation_date": "May 2016",
+      "grade": "1:1",
+      "focus_areas": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ]
+    }
+  ],
+  "certifications": {
+    "completed": [
+      "Google Data Analytics Professional Certificate (2026)",
+      "Google AI Professional Certificate (2026)",
+      "Microsoft Azure AI Fundamentals (AI-900) (2026)",
+      "Meta Community Management Specialization",
+      "Full Stack Development - 10x Academy"
+    ],
+    "in_progress": [
+      "IBM Management Consultant Specialization"
+    ]
+  },
+  "metadata": {
+    "last_updated": "2026-05-24",
+    "version": "3.2",
+    "deployment_status": "Ready",
+    "analytics_id": "G-DUMMYGA"
+  }
+}
